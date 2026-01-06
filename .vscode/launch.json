@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug lab_1_8 (Integrated Terminal)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_1_8",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "preLaunchTask": "build lab_1_8",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run lab_1_8 (no debug, Integrated Terminal)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_1_8",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "preLaunchTask": "build lab_1_8",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "console": "integratedTerminal",
+      "noDebug": true
+    }
+  ]
+}
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run lab_1_8",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_1_8",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "preLaunchTask": "build lab_1_8",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb"
+    }
+  ]
+}
